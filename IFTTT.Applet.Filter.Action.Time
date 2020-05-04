@@ -6,12 +6,12 @@ if (currentHour >= 23 || currentHour < 5 ) {
 
 } else {
 
-// Skip the Actions presented in ACTIONS section
+// Skip the Actions - syntax presented in ACTIONS section
 
-PhoneCall.callMyPhone.skip("Alarm Supressed")
+PhoneCall.callMyPhone.skip("Alarm Suppressed")
 
-Smartlife.activateScene.skip("Lights Supressed")
+Smartlife.activateScene.skip("Lights Suppressed")
 
-Wyzecam.uploadAlarmVideo.skip("Video Supressed")
+Wyzecam.uploadAlarmVideo.skip("Video Suppressed")
 
 }
