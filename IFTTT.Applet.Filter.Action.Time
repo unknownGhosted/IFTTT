@@ -1,0 +1,17 @@
+var currentHour = Meta.currentUserTime.hour()
+
+if (currentHour >= 23 || currentHour < 5 ) {
+
+// Run the Actions
+
+} else {
+
+// Skip the Actions presented in ACTIONS section
+
+PhoneCall.callMyPhone.skip("Alarm Supressed")
+
+Smartlife.activateScene.skip("Lights Supressed")
+
+Wyzecam.uploadAlarmVideo.skip("Video Supressed")
+
+}
