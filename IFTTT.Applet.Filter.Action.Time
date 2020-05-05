@@ -1,5 +1,7 @@
 var currentHour = Meta.currentUserTime.hour()
 
+// Change the logic operator from OR to AND to cater for past midnight start
+
 if (currentHour >= 23 || currentHour < 5 ) {
 
 // Run the Actions
